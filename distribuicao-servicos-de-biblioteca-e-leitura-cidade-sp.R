@@ -25,7 +25,7 @@ bib_sp_filtrado <- bib_sp %>%
 
 # Adicionar coordenadas
 
-register_google(key = "AIzaSyB4UQIhpk1u1LQ9rUYQCqhzglD-APBEsqY")
+register_google(key = "insert api key")
 
 bib_sp_filtrado$geocode <- geocode(bib_sp_filtrado$Endereços)
 bib_sp_filtrado$latitude <- bib_sp_filtrado$geocode$lat
